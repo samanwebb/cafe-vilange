@@ -1,0 +1,19 @@
+:root {
+  --bg-color: #0f0f0f;
+
+  --secondary-bg: #181818;
+
+  --card-bg: rgba(255, 255, 255, 0.05);
+
+  --gold: #c89b3c;
+
+  --white: #ffffff;
+
+  --gray: #cfcfcf;
+
+  --transition: 0.35s ease;
+
+  --radius: 18px;
+
+  --container: 1200px;
+}
