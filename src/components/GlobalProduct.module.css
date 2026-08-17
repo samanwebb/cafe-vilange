@@ -4,9 +4,17 @@
   padding: 50px 24px 80px;
 
   background:
-    radial-gradient(circle at top right, #5a3c1f22 0%, transparent 30%),
-    radial-gradient(circle at bottom left, #8d623522 0%, transparent 30%),
-    linear-gradient(180deg, #0d0d0d 0%, #151515 45%, #1d1d1d 100%);
+    radial-gradient(
+      circle at top right,
+      rgba(67, 145, 125, 0.22) 0%,
+      transparent 32%
+    ),
+    radial-gradient(
+      circle at bottom left,
+      rgba(197, 145, 75, 0.1) 0%,
+      transparent 32%
+    ),
+    linear-gradient(180deg, #0d2924 0%, #123a32 50%, #17463c 100%);
 
   position: relative;
 
@@ -90,11 +98,12 @@
 }
 
 .card {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.14);
 
   backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
 
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.22);
 
   border-radius: 28px;
 
@@ -103,9 +112,10 @@
   transition: 0.4s;
 
   box-shadow:
-    0 25px 50px rgba(0, 0, 0, 0.35),
-    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    0 20px 45px rgba(0, 0, 0, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.18);
 }
+
 .info::after {
   content: "";
   position: absolute;
