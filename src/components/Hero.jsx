@@ -15,10 +15,6 @@ export default function Hero() {
 
       <div className={styles.container}>
         <div className={styles.content}>
-          <span className={styles.category}>
-            انواع قهوه • نوشیدنی‌های گرم • نوشیدنی‌های سرد • دسر
-          </span>
-
           <h1>
             ویلانج
             <br />
