@@ -26,15 +26,7 @@ export default function Hero() {
           </h1>
 
           <div className={styles.glassCard}>
-            <span>پیشنهاد امروز</span>
-
             <h4>امروز دوست داری چی سفارش بدی؟</h4>
-
-            <p>
-              قهوه، نوشیدنی خنک یا یه دسر تازه...
-              <br />
-              انتخاب با خودته.
-            </p>
           </div>
 
           <small>برای دیدن منوی کامل روی دکمه زیر کلیک کن</small>
