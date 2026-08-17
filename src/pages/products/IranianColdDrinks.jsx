@@ -11,7 +11,7 @@ export default function IranianColdDrinks() {
 
           <h1>نوشیدنی‌های ایرانی (سرد)</h1>
 
-          <p>نوشیدنی‌های خنک با طعم‌های اصیل و ترکیب‌های اختصاصی ویلانج.</p>
+          <p>نوشیدنی‌های خنک با ترکیب‌های اختصاصی ویلانج</p>
         </div>
 
         <div className={styles.grid}>

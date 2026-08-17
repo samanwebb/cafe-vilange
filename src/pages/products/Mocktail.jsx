@@ -11,7 +11,7 @@ export default function Mocktail() {
 
           <h1>ماکتل</h1>
 
-          <p>ترکیب‌های خنک و خاص ویلانج، بدون الکل و مناسب برای هر سلیقه.</p>
+          <p>ترکیب‌های خنک ویلانج </p>
         </div>
 
         <div className={styles.grid}>

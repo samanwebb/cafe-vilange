@@ -11,7 +11,7 @@ export default function Dessert() {
 
           <h1>دسر و کیک</h1>
 
-          <p>دسرها و کیک‌های تازه ویلانج برای یه انتخاب شیرین و خوشمزه.</p>
+          <p>دسرها و کیک‌های تازه ویلانج </p>
         </div>
 
         <div className={styles.grid}>
