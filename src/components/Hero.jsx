@@ -35,7 +35,12 @@ export default function Hero() {
               مشاهده منو
             </button>
 
-            <button className={styles.secondary}>درباره کافه</button>
+            <button
+              className={styles.secondary}
+              onClick={() => navigate("/about-cafe")}
+            >
+              درباره کافه
+            </button>
           </div>
         </div>
 

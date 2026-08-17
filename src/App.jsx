@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
+import AboutCafe from "./components/AboutCafe";
 import HotCoffee from "./pages/products/HotCoffee";
 import HotDrinksDecaf from "./pages/products/HotDrinksDecaf";
 import IcedCoffee from "./pages/products/IcedCoffee";
@@ -21,6 +22,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/menu" element={<Menu />} />
+      <Route path="/about-cafe" element={<AboutCafe />} />
       <Route path="/hot-coffee" element={<HotCoffee />} />
       <Route path="/hot-drinks-decaf" element={<HotDrinksDecaf />} />
       <Route path="/iced-coffee" element={<IcedCoffee />} />
